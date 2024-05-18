@@ -12,7 +12,6 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class SystemManager {
-
     private final OrderProcessorFactory orderProcessorFactory;
     private final Inventory inventoryService;
 
@@ -25,12 +24,10 @@ public class SystemManager {
         } catch (OutOfStockException e) {
             System.out.println("Error: " + e.getMessage());
         }
-
         p.process(order.getAmount());
         n.sendNotification("title", "message");
         System.out.println("factory: " + orderProcessorFactory.toString());
         System.out.println("Payment: " + p.toString());
         System.out.println("Notification: " + n.toString());
-
     }
 }
