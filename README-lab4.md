@@ -175,7 +175,7 @@ public class LabJWT {
                 retryCount++;
                 if (retryCount >= LOCKOUT_THRESHOLD) {
                     lockAccount(username);
-                    System.out.println("Se ha bloqueado la cuenta debido a demasiados intentos fallidos. Por favor, espere antes de intentar nuevamente.");
+                    System.out.println("Se ha bloqueado la cuenta debido a demasiados intentos fallidos. Espere antes de intentar nuevamente.");
                     return false;
                 } else {
                     System.out.println("Usuario o contraseña incorrectos. Intento " + retryCount + " de " + MAX_RETRIES);
