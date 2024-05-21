@@ -23,7 +23,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Scanner; // Importamos Scanner para leer la entrada del usuario
+import java.util.Scanner; 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class Authenticator {
@@ -41,9 +41,9 @@ public class Authenticator {
                 ResultSet result = statement.executeQuery();
                 
                 if (result.next()) {
-                    isAuthenticated = verifySecondFactor(); // Verificar el segundo factor de autenticación
+                    isAuthenticated = verifySecondFactor();
                     if (isAuthenticated) {
-                        break; // Si se autentica correctamente, salir del bucle
+                        break; 
                     }
                 }
             } catch (SQLException e) {
@@ -59,14 +59,14 @@ public class Authenticator {
     public static boolean verifySecondFactor() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el código de verificación de dos factores: ");
-        String verificationCode = scanner.nextLine(); // Leer el código de verificación del usuario
-        return true; // simulando una verificación exitosa
+        String verificationCode = scanner.nextLine(); 
+        return true; 
     }
 
     public static void main(String[] args) {
         String username = "usuario";
         String password = "contraseña";
-        int maxRetries = 3; // Número máximo de reintentos
+        int maxRetries = 3;
         
         boolean isAuthenticated = authenticateUser(username, password, maxRetries);
         
