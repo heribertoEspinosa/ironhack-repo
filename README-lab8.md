@@ -1,8 +1,10 @@
 # IronHack Lab-8
 
-![Captura de pantalla 2024-05-28 a la(s) 3.42.22 p.m..png](..%2F..%2FDocuments%2FCapturas%20de%20pantalla%20y%20video%2FCaptura%20de%20pantalla%202024-05-28%20a%20la%28s%29%203.42.22%E2%80%AFp.m..png)
+![Captura de pantalla 2024-05-28 a la(s) 3 42 22 p m](https://github.com/heribertoEspinosa/ironhack-repo/assets/126496110/322f9989-3fc9-4808-bf66-b8ff4a048c3f)
 
-![Captura de pantalla 2024-05-28 a la(s) 3.43.09 p.m..png](..%2F..%2FDocuments%2FCapturas%20de%20pantalla%20y%20video%2FCaptura%20de%20pantalla%202024-05-28%20a%20la%28s%29%203.43.09%E2%80%AFp.m..png)
+![Captura de pantalla 2024-05-28 a la(s) 3 43 09 p m](https://github.com/heribertoEspinosa/ironhack-repo/assets/126496110/82b2a41b-f620-4a6a-b996-589f3000ace2)
+
+
 ```yaml
 openapi: 3.0.0
 info:
