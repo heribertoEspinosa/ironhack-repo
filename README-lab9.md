@@ -41,7 +41,8 @@
 
 ### Arquitectura de Microservicios Propuesta
 
-![Diagrama de Arquitectura de Microservicios](ruta/al/diagrama.png)
+![Captura de pantalla 2024-05-29 a la(s) 10 54 03 p m](https://github.com/heribertoEspinosa/ironhack-repo/assets/126496110/0ae319b7-3e5f-4c2d-9a71-1967153cdbfd)
+
 
 ### Narrativa de Decisiones Clave
 
